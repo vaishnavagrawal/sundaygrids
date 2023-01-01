@@ -9,7 +9,7 @@ function App() {
     <>
       <div className='w-screen h-[125px] absolute bg-[#FAFAFA] z-[-10]'></div>
 
-      <div className=''>
+      <div className='bg-white'>
         <Navbar></Navbar>
         <Hero></Hero>
         <Testimonials />

@@ -11,8 +11,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
   corePlugins: {
     // preflight: false,
   },
+  // content: ['./node_modules/flowbite/**/*.js'],
 };

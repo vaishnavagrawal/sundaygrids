@@ -44,7 +44,7 @@ h3 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.7rem;
   line-height: 35px;
 }
 
@@ -73,8 +73,8 @@ h3 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 21.3333px;
-  line-height: 32px;
+  font-size: 1.1rem;
+  /* line-height: 32px; */
 }
 .AccordionContent[data-state='open'] {
   animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
@@ -110,5 +110,27 @@ h3 {
   }
   to {
     height: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .testimonial-content {
+    margin-left: calc((100vw - 640px) / 2);
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonial-content {
+    margin-left: calc((100vw - 768px) / 2);
+  }
+}
+@media (min-width: 1024px) {
+  .testimonial-content {
+    margin-left: calc((100vw - 1024px) / 2);
+  }
+}
+@media (min-width: 1208px) {
+  .testimonial-content {
+    margin-left: calc((100vw - 1208px) / 2);
   }
 }
